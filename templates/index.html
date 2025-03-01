@@ -48,37 +48,47 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-12 mb-4">
-                <div class="chatbox__support">
-                    <div class="chatbox__header">
-                        <div class="chatbox__content--header">
-                            <h1 class="chatbox__heading--header">Chat support</h1>
-                            <p class="chatbox__description--header">Hi. I am the IT Student Helper. How can I assist you
-                                today?</p>
-                        </div>
-                    </div>
-                    <div class="chatbox__messages">
-                        <div></div>
-                    </div>
-                    <div class="chatbox__footer">
-                        <input type="text" placeholder="Write a message...">
-                        <button class="chatbox__send--footer send__button">Send</button>
+                <div class="container-left">
+                    <!-- <h1>Hello World</h1> -->
+                    <div class="form-container">
+
+                        <label>Total Program Credits:</label>
+                        <input type="number" id="totalCredits">
+
+                        <label>Completed Credits:</label>
+                        <input type="number" id="completedCredits">
+
+                        <label>Current GPA:</label>
+                        <input type="number" id="currentGPA" step="0.1">
+
+                        <label>Target GPA:</label>
+                        <input type="number" id="targetGPA" step="0.1">
+
+                        <div class="output" id="output">Estimated GPA:</div>
+
+                        <button onclick="calculateGPA()">Calculate Required GPA</button>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6 col-12 mb-4">
                 <div class="container-right">
-                    <div class="big-search">
-                        <div id="search">
-                            {{ form_html|safe }}
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="second-card-body">
-                        {{ second_card_body|safe }}
+                    <div class="form-container">
+                        <label>Study hours:</label>
+                        <input type="number" id="studyHours">
+
+                        <label>Sleep hours:</label>
+                        <input type="number" id="sleepHours">
+
+                        <label>Current GPA:</label>
+                        <input type="number" id="currentGPA" step="0.1">
+
+                        <label>Target GPA:</label>
+                        <input type="number" id="targetGPA" step="0.1">
+
+                        <div class="output" id="output">Estimated GPA:</div>
+
+                        <button onclick="predictGPA()">Predict GPA</button>
                     </div>
                 </div>
             </div>
