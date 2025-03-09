@@ -1,8 +1,6 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
-import seaborn as sns
 import numpy as np
 
 df = pd.read_csv("dataset/gpa.csv")
