@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 import numpy as np
