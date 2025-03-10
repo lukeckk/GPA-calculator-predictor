@@ -19,10 +19,10 @@ A custom dataset containing study hours, work hours, sleep hours, and interest l
 - **Polynomial Features**: Used to capture non-linear relationships
 
 #### Feature Correlation
-![Feature Correlation](images/heatmap.png)
+![Feature Correlation](static/images/heatmap.png)
 
 #### Data Distribution
-![Pairplot](images/pairplot.png)
+![Pairplot](static/images/pairplot.png)
 
 #### Model Performance
 - **Mean Absolute Error (MAE)**: 0.0706
