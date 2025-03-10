@@ -36,3 +36,6 @@ A pairplot was generated to analyze feature distributions and relationships:
 
 This high R² score indicates that the model effectively predicts GPA based on input features.
 
+## **Dekstop Application Available (Only Calculator Feature)**
+- **Windows**: https://www.dropbox.com/s/0fs8xebol7ky8tc/app.zip?e=1&st=r2qkqt08&dl=0
+- **Mac OS**: https://www.dropbox.com/s/oymxhdlk0kb48gu/app.app.zip?e=1&st=sabt97xz&dl=0
