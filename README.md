@@ -16,7 +16,7 @@ This project helps students estimate and plan their academic performance by:
 ✔️ **Aids in time management and academic planning for better results** 
 
 ### Dataset and Feature Engineering
-A custom dataset [text](dataset/gpa.csv) containing study hours, work hours, sleep hours, and interest levels was used to train a linear regression model. Feature engineering was applied to enhance the model:
+A [custom dataset](dataset/gpa.csv) containing study hours, work hours, sleep hours, and interest levels was used to train a linear regression model. Feature engineering was applied to enhance the model:
 
 - **Interaction Feature**: `study_hours * interest` (captures the effect of interest level on study efficiency)
 - **Log Transformation**: Applied to `work_hours` to handle non-linearity
